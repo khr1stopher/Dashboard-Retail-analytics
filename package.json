@@ -1,5 +1,5 @@
 {
-  "name": "shaggy-spiral",
+  "name": "Dashboard-retail-analytics",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -11,6 +11,13 @@
   "dependencies": {
     "@astrojs/vue": "^5.0.6",
     "astro": "^5.2.0",
+    "d3": "^7.9.0",
     "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^6.0.0",
+    "@types/d3": "^7.4.3",
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^4.0.2"
   }
 }
